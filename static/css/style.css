@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainhead{
+    background: #58D68D;
+    display: grid;
+    height: 65px;
+    width: 100vw;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+}
+.mainhead div {
+    display: grid; 
+}
+.mainhead img{
+    width: 200px;
+    height:65px;
+}
